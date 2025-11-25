@@ -1,0 +1,26 @@
+import { TarotCardData } from './types';
+
+export const MAJOR_ARCANA: TarotCardData[] = [
+  { id: 0, name: "愚者", nameEn: "The Fool", imageKeyword: "cliff", meaningUp: "新的开始，冒险，纯真", meaningRev: "鲁莽，冒险，无知" },
+  { id: 1, name: "魔术师", nameEn: "The Magician", imageKeyword: "magic", meaningUp: "创造力，意志力，技能", meaningRev: "欺骗，意图不明，才能未发挥" },
+  { id: 2, name: "女祭司", nameEn: "The High Priestess", imageKeyword: "moon", meaningUp: "直觉，神秘，潜意识", meaningRev: "表面知识，被压抑的感情" },
+  { id: 3, name: "皇后", nameEn: "The Empress", imageKeyword: "nature", meaningUp: "丰饶，母性，自然", meaningRev: "依赖，创造力受阻" },
+  { id: 4, name: "皇帝", nameEn: "The Emperor", imageKeyword: "throne", meaningUp: "权威，结构，控制", meaningRev: "暴政，僵化，冷酷" },
+  { id: 5, name: "教皇", nameEn: "The Hierophant", imageKeyword: "temple", meaningUp: "传统，精神指引，信仰", meaningRev: "反叛，非常规，新的信仰" },
+  { id: 6, name: "恋人", nameEn: "The Lovers", imageKeyword: "couple", meaningUp: "爱，和谐，关系", meaningRev: "不和谐，失衡，分离" },
+  { id: 7, name: "战车", nameEn: "The Chariot", imageKeyword: "chariot", meaningUp: "意志力，胜利，决心", meaningRev: "失控，侵略，挫折" },
+  { id: 8, name: "力量", nameEn: "Strength", imageKeyword: "lion", meaningUp: "勇气，说服，影响力", meaningRev: "自我怀疑，虚弱，不安全感" },
+  { id: 9, name: "隐士", nameEn: "The Hermit", imageKeyword: "lantern", meaningUp: "内省，孤独，指引", meaningRev: "孤立，孤独，退缩" },
+  { id: 10, name: "命运之轮", nameEn: "Wheel of Fortune", imageKeyword: "wheel", meaningUp: "好运，因果，生命周期", meaningRev: "厄运，抵抗变化" },
+  { id: 11, name: "正义", nameEn: "Justice", imageKeyword: "scales", meaningUp: "公正，真相，法律", meaningRev: "不公，缺乏责任，不诚实" },
+  { id: 12, name: "倒吊人", nameEn: "The Hanged Man", imageKeyword: "tree", meaningUp: "牺牲，释放，新视角", meaningRev: "拖延，无谓的牺牲" },
+  { id: 13, name: "死神", nameEn: "Death", imageKeyword: "skull", meaningUp: "结束，转变，新开始", meaningRev: "抵抗改变，无法释怀" },
+  { id: 14, name: "节制", nameEn: "Temperance", imageKeyword: "angel", meaningUp: "平衡，适度，耐心", meaningRev: "失衡，过度，匆忙" },
+  { id: 15, name: "恶魔", nameEn: "The Devil", imageKeyword: "chains", meaningUp: "束缚，物质主义，上瘾", meaningRev: "释放，打破束缚" },
+  { id: 16, name: "高塔", nameEn: "The Tower", imageKeyword: "lightning", meaningUp: "突变，剧变，觉醒", meaningRev: "避免灾难，恐惧改变" },
+  { id: 17, name: "星星", nameEn: "The Star", imageKeyword: "star", meaningUp: "希望，信仰，灵感", meaningRev: "绝望，缺乏信仰" },
+  { id: 18, name: "月亮", nameEn: "The Moon", imageKeyword: "wolf", meaningUp: "幻觉，恐惧，潜意识", meaningRev: "释放恐惧，混乱平息" },
+  { id: 19, name: "太阳", nameEn: "The Sun", imageKeyword: "sun", meaningUp: "积极，温暖，成功", meaningRev: "暂时消沉，不切实际" },
+  { id: 20, name: "审判", nameEn: "Judgement", imageKeyword: "trumpet", meaningUp: "审判，重生，内心召唤", meaningRev: "自我怀疑，拒绝召唤" },
+  { id: 21, name: "世界", nameEn: "The World", imageKeyword: "earth", meaningUp: "完成，整合，旅行", meaningRev: "未完成，缺乏封闭" },
+];
